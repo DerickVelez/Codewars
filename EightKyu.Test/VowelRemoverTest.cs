@@ -12,6 +12,7 @@ namespace EightKyu.Test
     {
         [Theory]
         [InlineData("hll", "hello")]
+        [InlineData("ths s chrstms","this is christmas")]
 
         public void ShouldReturnRemovedVowels(string expected, string input)
         {
