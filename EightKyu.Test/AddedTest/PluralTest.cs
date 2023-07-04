@@ -1,11 +1,11 @@
-﻿using Eight.Kyuu;
+﻿using Eight.Kyuu.Added;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace EightKyu.Test
+namespace EightKyu.Test.AddedTest
 {
     public class PluralTest
     {
@@ -14,7 +14,7 @@ namespace EightKyu.Test
         [InlineData(1, false)]
         [InlineData(double.PositiveInfinity, true)]
 
-        public void ShouldReturnTrueifPlural(double input,bool expected)
+        public void ShouldReturnTrueifPlural(double input, bool expected)
         {
             var result = Plural.PluralWords(input);
             Assert.Equal(expected, result);

@@ -1,18 +1,18 @@
-﻿using Eight.Kyuu;
+﻿using Eight.Kyuu.Added;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace EightKyu.Test
+namespace EightKyu.Test.AddedTest
 {
     public static class KeepHydratedTest
     {
-       [Theory]
-       [InlineData(1.4, 0)]
+        [Theory]
+        [InlineData(1.4, 0)]
 
-       public static void ShouldReturnLiters(double output,int expected )
+        public static void ShouldReturnLiters(double output, int expected)
         {
             var result = KeepHydrated.Litres(output);
 

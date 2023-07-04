@@ -1,11 +1,11 @@
-﻿using Eight.Kyuu;
+﻿using Eight.Kyuu.Added;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace EightKyu.Test
+namespace EightKyu.Test.AddedTest
 {
     public class PillarsTest
     {
@@ -14,11 +14,11 @@ namespace EightKyu.Test
         public void PillarsTestshouldreturnDist(int numPill, int dist, int width, int expected)
         {
 
-            var result = Pillars.ReturnPillars(numPill,dist,width);
+            var result = Pillars.ReturnPillars(numPill, dist, width);
 
-            Assert.Equal(expected,result);
+            Assert.Equal(expected, result);
 
         }
-           
+
     }
 }

@@ -1,11 +1,11 @@
-﻿using Eight.Kyuu;
+﻿using Eight.Kyuu.Added;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace EightKyu.Test
+namespace EightKyu.Test.AddedTest
 {
     public class NoZerosforHeroesTest
     {
@@ -16,7 +16,7 @@ namespace EightKyu.Test
 
         public void ShouldReturnNoZeroEnding(int expected, int actual)
         {
-            var result = NoZerosforHeroes.NoBoringZeros(actual); 
+            var result = NoZerosforHeroes.NoBoringZeros(actual);
             Assert.Equal(expected, result);
         }
     }

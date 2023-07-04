@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Globalization;
 
-namespace Eight.Kyuu
+namespace Eight.Kyuu.Added
 {
     public class CapitallizationandMutability
     {

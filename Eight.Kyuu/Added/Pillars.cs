@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Eight.Kyuu
+namespace Eight.Kyuu.Added
 {
-    
+
     public class Pillars
     {
         public static int ReturnPillars(int numPill, int dist, int width)
@@ -14,7 +14,7 @@ namespace Eight.Kyuu
             if (numPill <= 1 && dist >= 10 && dist <= 30 && width >= 10 && width <= 50)
             { return 0; }
             else
-                return ((numPill - 2) * width) + ((numPill - 1) * (dist * 100));
+                return (numPill - 2) * width + (numPill - 1) * dist * 100;
         }
     }
 }

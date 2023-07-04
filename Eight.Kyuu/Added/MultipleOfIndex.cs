@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Eight.Kyuu
+namespace Eight.Kyuu.Added
 {
     public static class MultipleOfIndex
     {
@@ -17,14 +17,14 @@ namespace Eight.Kyuu
             for (int i = 0; i < res.Count; i++)
             {
 
-                if ((xs[i] == 0 && i == 0) || (i != 0 && xs[i] % i == 0))
+                if (xs[i] == 0 && i == 0 || i != 0 && xs[i] % i == 0)
                 {
                     result.Add(xs[i]);
                 }
 
             }
 
-        
+
 
             return result.ToArray();
         }

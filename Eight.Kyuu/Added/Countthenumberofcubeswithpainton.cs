@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Eight.Kyuu
+namespace Eight.Kyuu.Added
 {
     public static class Countthenumberofcubeswithpainton
     {
@@ -14,8 +14,8 @@ namespace Eight.Kyuu
             {
                 return 1;
             }
-            int side1 = ((cuts + 1) * (cuts + 1)) * 2;
-            int side2 = (cuts - 1) * (((cuts + 1) * 4) - 4);
+            int side1 = (cuts + 1) * (cuts + 1) * 2;
+            int side2 = (cuts - 1) * ((cuts + 1) * 4 - 4);
             return side1 + side2;
         }
     }
