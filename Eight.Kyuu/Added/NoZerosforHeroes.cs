@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Eight.Kyuu
+namespace Eight.Kyuu.Added
 {
     public class NoZerosforHeroes
     {
@@ -28,7 +28,7 @@ namespace Eight.Kyuu
                 }
 
             string numbers = string.Join("", digits);
-            int result = Int32.Parse(numbers);
+            int result = int.Parse(numbers);
             return n / result;
         }
     }

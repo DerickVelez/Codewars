@@ -6,18 +6,18 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace EightKyu.Test
+namespace EightKyu.Test.AddedTest
 {
     public class VowelRemoverTest
     {
         [Theory]
         [InlineData("hll", "hello")]
-        [InlineData("ths s chrstms","this is christmas")]
+        [InlineData("ths s chrstms", "this is christmas")]
 
         public void ShouldReturnRemovedVowels(string expected, string input)
         {
             var result = VowelRemover.Shortcut(input);
-            Assert.Equal(expected, result); 
+            Assert.Equal(expected, result);
         }
     }
 }

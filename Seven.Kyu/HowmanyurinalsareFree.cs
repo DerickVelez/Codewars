@@ -2,11 +2,16 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 
 namespace Seven.Kyu
 {
-    internal class HowmanyurinalsareFree
+    public class HowmanyurinalsareFree
     {
+        public static int GetFreeUrinals(string urinals)
+        {
+            return urinals.Contains("11") ? -1 : Regex.Matches(urinals, @"(^|0)0(?!1)").Count;
+        }
     }
 }
