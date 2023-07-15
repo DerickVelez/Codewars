@@ -8,7 +8,7 @@ namespace Seven.Kyu
 {
     public class WhatTimeIsIt
     {
-        public string GetMilitaryTimeFromStandardTime(string time)
+        public static string GetMilitaryTimeFromStandardTime(string time)
         {
 
             DateTime dateTime;
