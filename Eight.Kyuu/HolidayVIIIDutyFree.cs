@@ -6,7 +6,13 @@ using System.Threading.Tasks;
 
 namespace Eight.Kyuu
 {
-    internal class HolidayVIIIDutyFree
+    public class HolidayVIIIDutyFree
     {
+        public static int DutyFree(int normPrice, int Discount, int hol)
+        {
+            double percentage = (double)Discount / 100;
+            var savings = normPrice * percentage;
+            return (int)Math.Floor(hol / savings);
+        }
     }
 }
