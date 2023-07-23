@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace Eight.Kyuu.Added
 {
-    public class DNAToRNAConversion
+    public static class DNAToRNAConversion
     {
-        public string dnaToRna(string dna)
+        public static string dnaToRna(string dna)
         {
             return dna.Replace("T", "U");
         }
