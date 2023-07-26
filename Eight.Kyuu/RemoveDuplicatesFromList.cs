@@ -6,7 +6,14 @@ using System.Threading.Tasks;
 
 namespace Eight.Kyuu
 {
-    internal class RemoveDuplicatesFromList
+    public class RemoveDuplicatesFromList
     {
+        
+            public static int[] distinct(int[] a)
+            {
+                var result = a.Distinct();
+                return result.ToArray();
+            }
+       
     }
 }
