@@ -6,4 +6,12 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <EditorConfigFiles Remove="D:\development\C#\Codewars\Seven.Kyu\.editorconfig" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="D:\development\C#\Codewars\Seven.Kyu\.editorconfig" />
+  </ItemGroup>
+
 </Project>
