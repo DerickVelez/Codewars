@@ -1,11 +1,11 @@
-﻿using Eight.Kyuu;
+﻿using Eight.Kyuu.Added;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace EightKyu.Test
+namespace EightKyu.Test.AddedTest
 {
     public class RemovingElementsTest
     {
@@ -15,7 +15,7 @@ namespace EightKyu.Test
 
         public void ShouldReturnFinalElements(object[] expected, object[] elements)
         {
-            var result = RemovingElements.RemoveEveryOther(elements); 
+            var result = RemovingElements.RemoveEveryOther(elements);
             Assert.Equal(expected, result);
         }
     }

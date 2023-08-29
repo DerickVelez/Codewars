@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Eight.Kyuu
+namespace Eight.Kyuu.Added
 {
     public class NameOnBillboard
     {

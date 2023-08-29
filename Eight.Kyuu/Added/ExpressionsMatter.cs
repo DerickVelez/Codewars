@@ -4,11 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Eight.Kyuu
+namespace Eight.Kyuu.Added
 {
     public class ExpressionsMatter
     {
-        public   static int ExpressionsMatterExecution(int a, int b, int c)
+        public static int ExpressionsMatterExecution(int a, int b, int c)
         {
             int num1 = a * (b + c);
             int num2 = a * b * c;

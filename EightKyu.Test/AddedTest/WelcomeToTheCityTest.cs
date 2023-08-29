@@ -1,17 +1,17 @@
-﻿using Eight.Kyuu;
+﻿using Eight.Kyuu.Added;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace EightKyu.Test
+namespace EightKyu.Test.AddedTest
 {
     public class WelcomeToTheCityTest
     {
         [Theory]
         [InlineData("Hello, John Smith! Welcome to Phoenix, Arizona!", new string[] { "John", "Smith" }, "Phoenix", "Arizona")]
-        [InlineData("Hello, Franklin Delano Roosevelt! Welcome to Chicago, Illinois!", new string[] { "Franklin", "Delano", "Roosevelt" },"Chicago", "Illinois")]
+        [InlineData("Hello, Franklin Delano Roosevelt! Welcome to Chicago, Illinois!", new string[] { "Franklin", "Delano", "Roosevelt" }, "Chicago", "Illinois")]
 
         public void ShouldReturnConvertedString(string expected, string[] a, string b, string c)
         {
