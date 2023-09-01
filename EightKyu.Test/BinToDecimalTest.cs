@@ -15,7 +15,6 @@ namespace EightKyu.Test
         [InlineData("2",10)]
 
         public void ShouldReturnBinaryEquivalent(string value, int expected)
-
         {
             var result = BintoDecimal.binToDec(value);
             Assert.Equal(expected, result);
