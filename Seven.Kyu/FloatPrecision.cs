@@ -8,6 +8,6 @@ namespace Seven.Kyu
 {
     public class FloatPrecision
     {
-        public static double Round(double n) => Math.Round(n, 2);
+        public static string Round(double n) => Math.Round(n, 2).ToString();
     }
 }
