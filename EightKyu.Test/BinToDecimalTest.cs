@@ -12,6 +12,7 @@ namespace EightKyu.Test
         [Theory]
         [InlineData("0",0)]
         [InlineData("1",1)]
+        [InlineData("2",2)]
         
 
         public void ShouldReturnBinaryEquivalent(string value, int expected)
