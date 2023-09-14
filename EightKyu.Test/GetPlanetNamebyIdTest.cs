@@ -7,18 +7,15 @@ using System.Threading.Tasks;
 
 namespace EightKyu.Test
 {
-    public class BinToDecimalTest
+    public class GetPlanetNamebyIdTest
     {
         [Theory]
-        [InlineData("0",0)]
-        [InlineData("1",1)]
-        
+        [InlineData("Earth", 3)]
+        [InlineData("Mercury", 1)]
 
-        
-
-        public void ShouldReturnBinaryEquivalent(string value, int expected)
+        public void ShouldReturnPlanetName(string expected, int input)
         {
-            var result = BintoDecimal.binToDec(value);
+            var result = GetPlanetNamebyId.GetPlanetName(input);
             Assert.Equal(expected, result);
         }
     }
