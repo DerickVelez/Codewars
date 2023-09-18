@@ -12,6 +12,7 @@ namespace SevenKyu.Test
         [Theory]
         [InlineData(14526.724,68)]
         [InlineData(43.2673, 5881.248)]
+        [InlineData(null, null)]
 
         public void ShouldReturnAreaofCircle(double x, double y)
         {
