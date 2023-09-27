@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace Eight.Kyuu
 {
-    internal class DivisiblebyNB
+    public class DivisiblebyNB
     {
+        public static bool IsDivisible(int n, int x, int y) => n % x == 0 && n % y == 0 ? true : false;
+
     }
 }
