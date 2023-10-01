@@ -14,6 +14,8 @@ namespace SevenKyu.Test
         [InlineData("even",new int[] {})]
         [InlineData("odd", new int[] { 1023, 1, 3 })]
         [InlineData("even",new int[] {-1023, 1, -2})]
+        [InlineData("odd", new int[] { 1 })]
+
 
         public void ShouldReturnOddorEven(string expected, int[] input)
         {
