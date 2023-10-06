@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace Seven.Kyu
 {
-    public class BeginnerSeries5TriangularNumbers
+    public static class BeginnerSeries5TriangularNumbers
     {
-        public bool isTriangular(int T)
+        public static bool isTriangular(int T)
         {
             if (T < 0)
                 return false;
