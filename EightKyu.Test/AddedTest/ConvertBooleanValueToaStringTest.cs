@@ -1,11 +1,11 @@
-﻿using Eight.Kyuu;
+﻿using Eight.Kyuu.Added;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace EightKyu.Test
+namespace EightKyu.Test.AddedTest
 {
     public class ConvertBooleanValueToaStringTest
     {
@@ -13,7 +13,7 @@ namespace EightKyu.Test
         [InlineData("Yes", true)]
         [InlineData("No", false)]
 
-        public void ShouldReturnConvertedValue(string expected,bool value)
+        public void ShouldReturnConvertedValue(string expected, bool value)
         {
             var result = ConvertBooleanValuetoaString.boolToWord(value);
             Assert.Equal(expected, result);

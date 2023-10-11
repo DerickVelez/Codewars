@@ -1,18 +1,18 @@
-﻿using Eight.Kyuu;
+﻿using Eight.Kyuu.Added;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace EightKyu.Test
+namespace EightKyu.Test.AddedTest
 {
     public class GerCharacterFromASCIIValueTest
     {
         [Theory]
-        [InlineData( '7', 55)]
-        [InlineData( '@',64)]
-        [InlineData( 'A',65)]
+        [InlineData('7', 55)]
+        [InlineData('@', 64)]
+        [InlineData('A', 65)]
 
         public void ShouldReturnASCIIValue(int charcode, char expected)
         {

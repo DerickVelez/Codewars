@@ -1,11 +1,11 @@
-﻿using Eight.Kyuu;
+﻿using Eight.Kyuu.Added;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace EightKyu.Test
+namespace EightKyu.Test.AddedTest
 {
     public class IXME_ReplacealldotsTest
     {
@@ -16,7 +16,7 @@ namespace EightKyu.Test
 
         public void ShouldReturnNoDots(string input, string output)
         {
-            var result = FIXME_Replacealldots.ReplaceDots(output); 
+            var result = FIXME_Replacealldots.ReplaceDots(output);
             Assert.Equal(input, result);
         }
     }

@@ -5,7 +5,7 @@ using System.Text;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 
-namespace Eight.Kyuu
+namespace Eight.Kyuu.Added
 {
     public class FIXME_Replacealldots
     {
