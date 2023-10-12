@@ -4,14 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Eight.Kyuu
+namespace Eight.Kyuu.Added
 {
     public class FindMaximumandMinimumValuesinaList
     {
-            public static int Min(int[] list)
-             => list.Min();
+        public static int Min(int[] list)
+         => list.Min();
 
-            public static int Max(int[] list)
-            => list.Max();
+        public static int Max(int[] list)
+        => list.Max();
     }
 }

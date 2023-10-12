@@ -4,13 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Eight.Kyuu
+namespace Eight.Kyuu.Added
 {
     public class MilesperGallontoKilometerperMeter
     {
         public static double Converter(int mpg)
         {
-            return Math.Round(((mpg / 4.54609188) * 1.609344), 2);
+            return Math.Round(mpg / 4.54609188 * 1.609344, 2);
         }
     }
 }
