@@ -13,6 +13,8 @@ namespace EightKyu.Test.AddedTest
         [InlineData("67", 67)]
         [InlineData("1", 1)]
         [InlineData("3",3)]
+        [InlineData("4",4)]
+
         public void ShouldReturnStringFormat(string expected, int actual)
         {
             var result = ConvertaNumberToaString.NumberToString(actual);
