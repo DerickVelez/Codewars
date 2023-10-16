@@ -1,4 +1,4 @@
-﻿using Seven.Kyu;
+﻿using Seven.Kyu.Added;
 using System;
 using System.Collections.Generic;
 using System.Linq;

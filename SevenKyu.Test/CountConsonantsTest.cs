@@ -1,4 +1,4 @@
-﻿using Seven.Kyu;
+﻿using Seven.Kyu.Added;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace SevenKyu.Test
 {
-   public class CountConsonantsTest
+    public class CountConsonantsTest
     {
         [Theory]
         [InlineData(5, "Bbbbb")]

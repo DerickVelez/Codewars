@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Seven.Kyu
+namespace Seven.Kyu.Added
 {
     public class LostNumberInSequence
     {

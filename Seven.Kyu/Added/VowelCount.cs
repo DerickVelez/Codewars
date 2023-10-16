@@ -4,11 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Seven.Kyu
+namespace Seven.Kyu.Added
 {
     public class VowelCount
     {
-        public static int GetVowelCount(string str) => str.Count(c => "aeiou".Contains(Char.ToLower(c)));
+        public static int GetVowelCount(string str) => str.Count(c => "aeiou".Contains(char.ToLower(c)));
 
     }
 }

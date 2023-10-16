@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Seven.Kyu
+namespace Seven.Kyu.Added
 {
     public class CountConsonants
     {
@@ -20,7 +20,7 @@ namespace Seven.Kyu
                 {
                     vowel++;
                 }
-                else if ((str[i] >= 'a' && str[i] <= 'z') || (str[i] >= 'A' && str[i] <= 'Z'))
+                else if (str[i] >= 'a' && str[i] <= 'z' || str[i] >= 'A' && str[i] <= 'Z')
                 {
                     consonants++;
                 }

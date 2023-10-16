@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Seven.Kyu
+namespace Seven.Kyu.Added
 {
-    public  class FilterTheNumber
+    public class FilterTheNumber
     {
         public static int FilterString(string s)
         {
