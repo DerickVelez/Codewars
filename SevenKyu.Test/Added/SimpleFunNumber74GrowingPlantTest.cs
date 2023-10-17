@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SevenKyu.Test
+namespace SevenKyu.Test.Added
 {
     public class SimpleFunNumber74GrowingPlantTest
     {
@@ -15,7 +15,7 @@ namespace SevenKyu.Test
 
         public static void ShouldReturnOccurence(int expected, int UpSpeed, int DownSpeed, int DesiredHeight)
         {
-            var result = SimpleFunNumber74GrowingPlant.GrowingPlant(UpSpeed,DownSpeed,DesiredHeight);
+            var result = SimpleFunNumber74GrowingPlant.GrowingPlant(UpSpeed, DownSpeed, DesiredHeight);
             Assert.Equal(expected, result);
         }
     }

@@ -5,9 +5,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SevenKyu.Test
+namespace SevenKyu.Test.Added
 {
-    public  class LengthofTwoValuesTest
+    public class LengthofTwoValuesTest
     {
         [Theory]
         [InlineData(5, true, false, new object[] { true, false, true, false, true })]
@@ -15,9 +15,9 @@ namespace SevenKyu.Test
 
         public void ShouldReturnnumberofoccurence(int n, object firstValue, object secondValue, object[] expected)
         {
-       
+
             var result = LengthofTwoValues.AlternateObjectArray(n, firstValue, secondValue);
-            Assert.Equal( expected, result);
+            Assert.Equal(expected, result);
         }
     }
 }

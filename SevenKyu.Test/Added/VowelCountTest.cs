@@ -5,13 +5,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SevenKyu.Test
+namespace SevenKyu.Test.Added
 {
     public class VowelCountTest
     {
         [Theory]
         [InlineData(5, "abracadabra")]
-        [InlineData(0,"")]
+        [InlineData(0, "")]
         [InlineData(4, "pear tree")]
         [InlineData(13, "o a kak ushakov lil vo kashu kakao")]
 

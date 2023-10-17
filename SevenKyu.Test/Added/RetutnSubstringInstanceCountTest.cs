@@ -5,13 +5,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SevenKyu.Test
+namespace SevenKyu.Test.Added
 {
     public class RetutnSubstringInstanceCountTest
     {
         [Theory]
-        [InlineData(2,"abcdeb", "b" )]
-        [InlineData(3,"ccddeeccddeecc", "cc")]
+        [InlineData(2, "abcdeb", "b")]
+        [InlineData(3, "ccddeeccddeecc", "cc")]
 
         public void ShouldReturnOccurences(int expected, string fulltext, string searchtext)
         {

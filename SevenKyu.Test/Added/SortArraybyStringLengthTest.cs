@@ -5,13 +5,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SevenKyu.Test
+namespace SevenKyu.Test.Added
 {
     public class SortArraybyStringLengthTest
     {
         [Theory]
         [InlineData(new string[] { "I", "To", "Beg", "Life" }, new string[] { "Beg", "Life", "I", "To" })]
-    
+
         public void ShouldReturnSortedArray(string[] expected, string[] input)
         {
             var result = SortArraybyStringLength.SortByLength(input);

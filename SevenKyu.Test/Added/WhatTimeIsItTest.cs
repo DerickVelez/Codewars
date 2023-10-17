@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SevenKyu.Test
+namespace SevenKyu.Test.Added
 {
     public class WhatTimeIsItTest
     {
@@ -15,8 +15,8 @@ namespace SevenKyu.Test
 
         public void ShouldReturnMilitaryTime(string expected, string input)
         {
-            var result = WhatTimeIsIt.GetMilitaryTimeFromStandardTime(input); 
-            
+            var result = WhatTimeIsIt.GetMilitaryTimeFromStandardTime(input);
+
             Assert.Equal(expected, result);
         }
     }

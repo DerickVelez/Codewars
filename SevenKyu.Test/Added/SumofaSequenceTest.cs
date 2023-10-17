@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SevenKyu.Test
+namespace SevenKyu.Test.Added
 {
     public class SumofaSequenceTest
     {
@@ -13,7 +13,7 @@ namespace SevenKyu.Test
         [InlineData(2, 6, 2, 12)]
         [InlineData(1, 15, 3, 35)]
         [InlineData(16, 15, 3, 0)]
-        public void ShouldReturnSum(int start,int end,int steps,int expected)
+        public void ShouldReturnSum(int start, int end, int steps, int expected)
         {
             var result = SumofaSequence.SequenceSum(start, end, steps);
             Assert.Equal(expected, result);

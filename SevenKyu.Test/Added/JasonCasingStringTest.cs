@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SevenKyu.Test
+namespace SevenKyu.Test.Added
 {
     public class JasonCasingStringTest
     {
@@ -14,7 +14,7 @@ namespace SevenKyu.Test
 
         public void ShouldReturnTitleCasedString(string expected, string actual)
         {
-            var result = JasonCasingString.ToJadenCase(actual); 
+            var result = actual.ToJadenCase();
             Assert.Equal(expected, result);
         }
     }
