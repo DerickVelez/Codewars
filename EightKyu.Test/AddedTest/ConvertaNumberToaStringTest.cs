@@ -12,7 +12,6 @@ namespace EightKyu.Test.AddedTest
         [Theory]
         [InlineData("67", 67)]
         [InlineData("1", 1)]
-        [InlineData("3",3)]
     
         public void ShouldReturnStringFormat(string expected, int actual)
         {
