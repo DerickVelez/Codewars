@@ -5,15 +5,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SevenKyu.Test
+namespace SevenKyu.Test.Added
 {
     public class BoiledEggsTest
     {
 
         [Theory]
-        [InlineData(0,0)]
-        [InlineData(1,5)]
-        [InlineData(10,10)]
+        [InlineData(0, 0)]
+        [InlineData(1, 5)]
+        [InlineData(10, 10)]
 
         public void ShouldReturnNumofBoiledEggs(int input, int expected)
         {

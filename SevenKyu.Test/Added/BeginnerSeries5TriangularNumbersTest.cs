@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SevenKyu.Test
+namespace SevenKyu.Test.Added
 {
     public class BeginnerSeries5TriangularNumbersTest
     {
@@ -14,7 +14,7 @@ namespace SevenKyu.Test
         [InlineData(false, 2147483646)]
         [InlineData(true, 0)]
         [InlineData(true, 6)]
-        [InlineData(true,10)]
+        [InlineData(true, 10)]
 
         public void ShouldReturnTrueIfTriangleNumber(bool expected, int input)
         {
