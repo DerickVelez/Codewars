@@ -6,7 +6,22 @@ using System.Threading.Tasks;
 
 namespace Eight.Kyuu
 {
-    internal class Tosquare_root_ornottosquare_root_
+    public class Tosquare_root_ornottosquare_root_
     {
+        public static int[] SquareOrSquareRoot(int[] array)
+        {
+            List<int> result = new List<int>();
+
+            foreach (var num in array)
+            {
+                var digit = Math.Sqrt(num);
+
+                if (digit % 1 == 0)
+                { result.Add((int)digit); }
+                else
+                { result.Add(num * num); }
+            }
+            return result.ToArray();
+        }
     }
 }
