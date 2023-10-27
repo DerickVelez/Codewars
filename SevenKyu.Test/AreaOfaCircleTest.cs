@@ -10,7 +10,7 @@ namespace SevenKyu.Test
     public class AreaOfaCircleTest
     {
         [Theory]
-        [InlineData(14526.724,68)]
+        [InlineData(14526.724430199203,68)]
         [InlineData(43.2673, 5881.248)]
         [InlineData(null, null)]
 

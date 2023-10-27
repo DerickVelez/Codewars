@@ -15,6 +15,7 @@ namespace EightKyu.Test
         [InlineData(new int[] {9, 7, 2}, new int[] { 5, 2, 2 },106)]
         [InlineData(new int[] { 4, 4, 7 }, new int[] { 3, 9, 3 }, 31)]
 
+
         public void ShouldReturnDifferenceofCuboids(int[] arrA, int[] arrB, int expected)
         {
             var result = Difference_of_Volumes_of_Cuboids.FindDifference(arrA, arrB);
