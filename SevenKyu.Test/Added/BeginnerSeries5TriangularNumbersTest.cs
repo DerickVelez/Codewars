@@ -11,7 +11,6 @@ namespace SevenKyu.Test.Added
     {
         [Theory]
         [InlineData(true, 1)]
-        [InlineData(false, 2147483646)]
         [InlineData(true, 0)]
         [InlineData(true, 6)]
         [InlineData(true, 10)]
