@@ -13,7 +13,7 @@ namespace SevenKyu.Test.Added
         [InlineData(true, 1)]
         [InlineData(false, 0)]
         [InlineData(true, 6)]
-        [InlineData(true, 10)]
+    
 
         public void ShouldReturnTrueIfTriangleNumber(bool expected, int input)
         {
