@@ -14,6 +14,7 @@ namespace SevenKyu.Test.Added
         [InlineData(0, 0)]
         [InlineData(1, 5)]
         [InlineData(10, 10)]
+        [InlineData(11,15)]
 
         public void ShouldReturnNumofBoiledEggs(int input, int expected)
         {
