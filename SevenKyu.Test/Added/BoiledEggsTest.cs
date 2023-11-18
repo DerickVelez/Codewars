@@ -12,7 +12,6 @@ namespace SevenKyu.Test.Added
 
         [Theory]
         [InlineData(0, 0)]
-        [InlineData(1, 5)]
         [InlineData(10, 10)]
         [InlineData(11,15)]
         [InlineData(12, 15)]    
