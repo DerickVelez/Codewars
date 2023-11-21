@@ -8,16 +8,17 @@ namespace Eight.Kyuu.Added
 {
     public class AddLength
     {
-        public static string[] AddLengthInString(string str)
+        public static bool IsDigit(string s)
         {
-            var words = str.Split();
-            var result = new List<string>();
+            var correct;
+            bool Isnumerical = int.TryParse(s, out correct);
 
-            foreach (string subword in words)
-            {
-                result.Add($"{subword} {subword.Length.ToString()}");
-            }
-            return result.ToArray();
+            if (Isnumerical == true)
+            { return true; }
+            else
+            { }
+
+            return Isnumerical;
         }
     }
 }
