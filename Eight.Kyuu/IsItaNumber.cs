@@ -10,10 +10,10 @@ namespace Eight.Kyuu
     {
         public static bool IsDigit(string s)
         {
-            bool correct = true;
-            bool Isnumerical = int.TryParse(s, out correct);
-
-            return Isnumerical;
+            if (double.TryParse(s, out double result))
+            { return true; }
+            else
+            { return false; }
         }
     }
 }
