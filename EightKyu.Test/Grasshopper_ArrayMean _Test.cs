@@ -17,7 +17,7 @@ namespace EightKyu.Test
 
         public void ShouldReturnAverage(int[] actual, int expected)
         {
-            var result = Grasshopper_ArrayMean.FindAverage(actual);]
+            var result = Grasshopper_ArrayMean.FindAverage(actual);
             Assert.Equal(expected, result);
         }
     }
