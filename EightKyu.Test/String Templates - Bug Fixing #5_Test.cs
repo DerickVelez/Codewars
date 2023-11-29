@@ -10,7 +10,7 @@ namespace EightKyu.Test
     public class String_Templates___Bug_Fixing__5_Test
     {
         [Theory]
-        [InlineData("I like Cheese, Milk, Chocolate!", new string[] { "Cheese", "Milk", "Chocolate")]
+        [InlineData("I like Cheese, Milk, Chocolate!", new string[] { "Cheese", "Milk", "Chocolate" })]
         [InlineData("I like Cheese, Milk!", new string[] { "Cheese", "Milk" })]
 
         public void ShouldReturnCorrectedString(string expected, string[] actual)
