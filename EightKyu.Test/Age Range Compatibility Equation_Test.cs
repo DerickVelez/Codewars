@@ -14,6 +14,7 @@ namespace EightKyu.Test
         [InlineData("15-20",17)]
         [InlineData("20-40", 27)]
         [InlineData("4-5",5)]
+        [InlineData("3-6",6)]
 
         public void ShouldReturnRange(string expected, int given)
         {
