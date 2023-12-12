@@ -12,6 +12,7 @@ namespace SevenKyu.Test.Added
         [Theory]
         [InlineData(5, "Bbbbb")]
         [InlineData(7, "h^$&^#$&^elLo world")]
+        [InlineData(4,"bougart")]
 
         public void ShouldReturnNumberofConsonants(int expected, string actual)
         {
