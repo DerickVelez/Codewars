@@ -14,6 +14,7 @@ namespace SevenKyu.Test.Added
         [InlineData(7, "h^$&^#$&^elLo world")]
         [InlineData(4,"bougart")]
 
+
         public void ShouldReturnNumberofConsonants(int expected, string actual)
         {
             var result = CountConsonants.ConsonantCount(actual);
