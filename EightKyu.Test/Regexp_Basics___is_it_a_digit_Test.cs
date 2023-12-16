@@ -13,6 +13,7 @@ namespace EightKyu.Test
         [InlineData("",false)]
         [InlineData("0",true)]
         [InlineData(" ",false)]
+        [InlineData("e1",false)]
         [InlineData("12",true)]
 
         public void ShouldReturnTrueifNumber(string input,  bool expected)
