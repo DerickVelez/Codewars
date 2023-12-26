@@ -14,6 +14,7 @@ namespace EightKyu.Test
         [InlineData("You are 4 years old.", 2012, 2016)]
         [InlineData("You are 27 years old.", 1989, 2016)]
         [InlineData("You are 90 years old.", 2000, 2090)]
+        [InlineData("You will be born , 510 years.", 2010, 1500)]
 
         public void ShoulReturnYearOldNow(string expected, int birth, int yearTo)
         {
