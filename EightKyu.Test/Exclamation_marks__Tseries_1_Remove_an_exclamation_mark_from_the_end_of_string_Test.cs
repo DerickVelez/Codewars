@@ -12,6 +12,7 @@ namespace EightKyu.Test
         [Theory]
         [InlineData("Hi", "Hi!")]
         [InlineData("Hi!!", "Hi!!!")]
+        [InlineData("HUYIUY!", "HUYIUY")]
 
         public void ShouldReturnReducedString(string expected, string actual)
         {
