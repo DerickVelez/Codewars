@@ -13,7 +13,7 @@ namespace EightKyu.Test
         [InlineData("Hi", "Hi!")]
         [InlineData("Hi!!", "Hi!!!")]
         [InlineData("HUYIUY!", "HUYIUY")]
-
+        [InlineData("Good Morning!", "Good Morning")]
         public void ShouldReturnReducedString(string expected, string actual)
         {
             var result = Exclamation_marks_series_1_Remove_an_exclamation_mark_from_the_end_of_string.Remove(expected);
