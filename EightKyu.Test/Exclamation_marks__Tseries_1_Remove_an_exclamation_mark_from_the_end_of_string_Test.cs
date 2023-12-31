@@ -15,6 +15,8 @@ namespace EightKyu.Test
         [InlineData("HUYIUY!", "HUYIUY")]
         [InlineData("Good Morning!", "Good Morning")]
         [InlineData("Good Evening!", "Good Evening")]
+        [InlineData("Happy New Year!", "Happy New Year")]
+
 
         public void ShouldReturnReducedString(string expected, string actual)
         {
