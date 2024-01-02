@@ -12,10 +12,12 @@ namespace EightKyu.Test
         [Theory]
         [InlineData("Hi", "Hi!")]
         [InlineData("Hi!!", "Hi!!!")]
-        [InlineData("HUYIUY!", "HUYIUY")]
         [InlineData("Good Morning!", "Good Morning")]
         [InlineData("Good Evening!", "Good Evening")]
+        [InlineData("Merry!!!!Christmas!", "Merry!!!!Christmas")]
         [InlineData("Happy New Year!", "Happy New Year")]
+
+
 
 
         public void ShouldReturnReducedString(string expected, string actual)
