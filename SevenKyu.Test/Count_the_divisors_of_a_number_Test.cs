@@ -15,6 +15,7 @@ namespace SevenKyu.Test
         [InlineData(4,10)]
         [InlineData(8,54)]
         [InlineData(4,3)]
+        [InlineData(4, 12)]
 
         public void ShouldReturnNumberofDivisor(int expected, int n)
         {
