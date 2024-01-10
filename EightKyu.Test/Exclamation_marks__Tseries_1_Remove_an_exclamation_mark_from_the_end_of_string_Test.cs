@@ -26,3 +26,4 @@ namespace EightKyu.Test
             Assert.Equal(actual, result);
         }
     }
+}
