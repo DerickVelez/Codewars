@@ -16,6 +16,7 @@ namespace EightKyu.Test
         [InlineData("Good Evening!", "Good Evening")]
         [InlineData("Merry!!!!Christmas!", "Merry!!!!Christmas")]
         [InlineData("Happy New Year!", "Happy New Year")]
+        [InlineData("Derick!", "Derick")]
 
 
 
