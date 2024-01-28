@@ -13,7 +13,7 @@ namespace SevenKyu.Test
         [Theory]
         [InlineData(1,1)]
         [InlineData(4,10)]
-        
+        [InlineData(8,54)]
         
         public void ShouldReturnNumberofDivisor(int expected, int n)
         {
