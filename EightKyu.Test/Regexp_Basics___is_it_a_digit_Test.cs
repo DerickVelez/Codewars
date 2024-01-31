@@ -10,7 +10,7 @@ namespace EightKyu.Test
     public class Regexp_Basics___is_it_a_digit_Test
     {
         [Theory]
-        [InlineData("",false)]
+        [InlineData("null",false)]
         [InlineData("0",true)]
         [InlineData(" ",false)]
         [InlineData("e1",false)]
