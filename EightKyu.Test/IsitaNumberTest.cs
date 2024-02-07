@@ -13,7 +13,8 @@ namespace EightKyu.Test
         [Theory]
         [InlineData("234",true)]
         [InlineData(";askdf",false)]
-        [InlineData("321451",false)]
+        [InlineData("321451",true)]
+        [InlineData("erwe",false)]
 
         public void ShouldReturnTrueIfNumber(string input, bool expected)
         {
