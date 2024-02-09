@@ -15,6 +15,7 @@ namespace EightKyu.Test
         [InlineData(";askdf",false)]
         [InlineData("321451",true)]
         [InlineData("erwe",false)]
+        [InlineData("nice", false)]
 
         public void ShouldReturnTrueIfNumber(string input, bool expected)
         {
