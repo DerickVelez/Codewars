@@ -12,6 +12,7 @@ namespace SevenKyu.Test
         [Theory]
         [InlineData(3, "bitcoin take over the world maybe who knows perhaps")]
         [InlineData(2, "Let's travel abroad shall we")]
+        [InlineData(2, " shall we")]
 
         public void ReturnShortestWordNum(int expected,  string word)
         {

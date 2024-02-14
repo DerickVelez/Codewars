@@ -6,7 +6,12 @@ using System.Threading.Tasks;
 
 namespace Seven.Kyu
 {
-    internal class Shortest_Word
+    public class Shortest_Word
     {
+        public static int FindShort(string s)
+        {
+            var final = s.Split(" ");
+            return final.Min(y => y.Length);
+        }
     }
 }
