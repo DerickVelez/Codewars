@@ -13,8 +13,7 @@ namespace SevenKyu.Test
         [InlineData(3, "bitcoin take over the world maybe who knows perhaps")]
         [InlineData(2, "Let's travel abroad shall we")]
         [InlineData(2, " shall we")]
-
-        [InlineData(1, " Ishall we")]
+        [InlineData(1, " I shall we")]
         public void ReturnShortestWordNum(int expected,  string word)
         {
             var result = Shortest_Word.FindShort(word);
