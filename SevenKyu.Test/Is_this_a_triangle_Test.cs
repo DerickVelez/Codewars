@@ -14,6 +14,7 @@ namespace SevenKyu.Test
         [InlineData(false, 1, 2, -3)]
         [InlineData(false, 1, 2, 5)]
         [InlineData(false, 1, 2, 7)]
+        [InlineData(false,1,1,1)]
 
 
         public void ShouldReturnTrueIfTriangle(bool expected, int a, int b, int c)
