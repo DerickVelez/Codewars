@@ -12,6 +12,7 @@ namespace SevenKyu.Test
         [Theory]
         [InlineData(5.75, 5.00, 5, 10)]
         [InlineData(45.10, 36.97, 7, 15)]
+        [InlineData(23,34,2,54)]
         
 
         
