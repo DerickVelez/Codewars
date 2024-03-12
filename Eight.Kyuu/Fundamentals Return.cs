@@ -44,11 +44,7 @@ public static class Kata
             var result = a - b;
             return result;
         }
-        // Add more functions Here. Refer to the description for function names.
-        // The code will NOT WORK IF YOU USE names other than the ones
-        // from the description
 
     }
 }
-
 
