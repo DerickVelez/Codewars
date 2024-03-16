@@ -18,5 +18,15 @@ namespace EightKyu.Test
             Assert.Equal(expected, result);
 
         }
+
+        [Theory]
+        [InlineData(35,5,7)]
+
+        public void ShouldMultiplication(int expected, int a, int b)
+        {
+            var result = Kata.Multiply(a, b);
+            Assert.Equal(expected, result);
+
+        }
     }
 }
