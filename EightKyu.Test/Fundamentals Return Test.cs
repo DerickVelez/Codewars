@@ -12,7 +12,7 @@ namespace EightKyu.Test
         [Theory]
         [InlineData(12,5,7)]
 
-        public void ShouldReturnREsult(int expected, int a, int b)
+        public void ShouldReturnSum(int expected, int a, int b)
         {
             var result = Kata.Add( a, b);
             Assert.Equal(expected, result);
@@ -28,5 +28,17 @@ namespace EightKyu.Test
             Assert.Equal(expected, result);
 
         }
+
+
+        [Theory]
+        [InlineData(5, 10, 2)]
+
+        public void ShouldDivision(int expected, int a, int b)
+        {
+            var result = Kata.Divide(a, b);
+            Assert.Equal(expected, result);
+
+        }
+
     }
 }
